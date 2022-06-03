@@ -1,0 +1,343 @@
+/************************************ FRONT PAGE  ****************************************************/
+
+html,body{
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #0AA1DD;
+}
+hr {
+    border-color: #adc9e1;
+    width: 4rem;
+    border-width: 9px;
+    margin: 2% auto;
+    border-style: none;
+    border-top-style: dotted;
+}
+
+p,
+a,
+button {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #39383A;
+}
+
+section {
+    text-align: center;
+    padding: 2% 3% 0% 3%;
+}
+
+img {
+    width: 15%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* tRAINGLE DESIGN */
+
+
+
+
+
+/* SECTION */
+
+#front-page {
+    padding: 1% 3% 0% 7%;
+    background-color: #E8F9FD;
+
+
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* ayaz asnari */
+#name {
+    color: #0AA1DD;
+    margin-top: 1%;
+
+}
+
+/* HI IM A ..... */
+.head h1:nth-child(1) {
+    font-family: 'Clicker Script', cursive;
+    font-size: 4.5rem;
+    color: #0AA1DD;
+}
+
+/* ul */
+
+
+
+
+/* a */
+.nav-link {
+    font-size: 1.16rem;
+    cursor: pointer;
+
+}
+
+
+/* contains h2,p,hello image */
+
+#box1 {
+    margin: 1% 0%;
+    text-align: left;
+}
+
+
+#box1 h2 {
+    margin: 6% 0% 0% 0%;
+    line-height: 1.3;
+    font-size: 3rem;
+    color: #39383A;
+}
+
+#box1 p {
+    margin-top: .5%;
+    font-size: 1.5rem;
+    color: #39383A;
+
+
+}
+
+#box1 img {
+    width: 16%;
+
+}
+
+/* My profile image */
+#box2 img {
+    width: 88%;
+    margin-left: 16%;
+    position: relative;
+}
+
+
+#box1 button {
+    margin-top: 2%;
+
+}
+
+#box1 a {
+    color: #0AA1DD;
+}
+
+/******************************************************* About Me*********************************** */
+
+/* section */
+
+#about-me {
+    text-align: center;
+    padding: 2% 3%;
+    background-color: #252728;
+
+
+}
+
+/* graphic boy */
+
+#about-me img {
+    width: 10%;
+    margin: 2% 0%;
+}
+
+
+#about-me h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+#about-me p {
+    width: 70%;
+    margin: 4% auto;
+    color: white;
+    line-height: 1.8;
+
+}
+
+
+
+
+#skills h2 {
+    margin-bottom: 2%;
+}
+
+#skills h3{
+    margin-bottom: 4%;
+}
+
+
+.my-skill {
+    padding: 3% 0%;
+
+
+}
+
+
+
+.skill-desc img {
+    width: 25%;
+}
+
+.my-skill p {
+    width: 60%;
+    margin: 4% auto;
+    text-align: left;
+    line-height: 1.8;
+    padding: 4%;
+    border: 2px solid #418d35;
+    border-radius: 21px;
+
+}
+
+.my-skill strong{
+    color: #6f6ce2;
+}
+
+#skills-subset {
+    padding: 3%;
+}
+
+
+#ow3 div {
+    padding: 2%;
+    margin: 3% 0%;
+}
+
+#row3 div p {
+    width: 70%;
+    margin: 4% auto;
+}
+
+#desc2 img {
+    margin-bottom: 3%;
+}
+
+.box h3 {
+    font-size: 1.3rem;
+}
+
+
+
+#education {
+    padding: 2% 0%;
+    text-align: center;
+    background-color: #252728;
+
+}
+
+#education h2 {
+    margin: 0% 0% 3% 0%;
+}
+
+#education p {
+    color: white;
+}
+
+#education img {
+    width: 10%;
+    margin-bottom: 3%;
+}
+
+#hire-me {
+    background-color: #252728;
+}
+
+#my-hiring {
+    display: flex;
+
+}
+
+
+#row5 img {
+    width: 15%;
+    margin: 3% 0%;
+
+}
+
+#row5 img:hover {
+    transform: scale(1.2);
+    transition: all .5s ease-in-out 0s;
+}
+
+#row5 a {
+    color: #0AA1DD;
+}
+
+#hire-me {
+    text-align: center;
+}
+
+.item {
+    /* border: 2px solid black; */
+    text-align: left;
+    margin: 2% auto;
+
+}
+
+.item p {
+    width: 40%;
+   
+
+}
+
+#hire-me p,
+a {
+    color: white;
+    margin: 1% 0%;
+    
+
+}
+
+.item button {
+    margin: 1% 0% 0% 0%;
+
+}
+
+.item a {
+    color: #0AA1DD;
+}
+
+
+
+.item h3 {
+    margin-bottom: 4%;
+}
+
+#end-hire {
+    padding: 2% 4% 1% .5%;
+    font-size: 1.8rem;
+    text-align: left;
+    width: 51%;
+}
+
+#hire-me img {
+    width: 4%;
+    margin-right: 96%;
+    padding-bottom: 1.5%
+}
+
+#foot {
+    padding: 2% 0% 1% 0%;
+    background-color: #E8F9FD;
+}
+
+#foot h2 {
+    margin-bottom: 1%;
+}
+#top{
+    width: 3%;
+}
